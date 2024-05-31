@@ -41,8 +41,8 @@ async def logs(legend):
         start = datetime.now()
         fetch = await legend.reply(f"__Fetching Logs...__")
     
-        with open("Ritesh_Ki_MkC.txt", "w") as logfile:
-            logfile.write("Ritesh[ Bot Logs ]\n\n" + logs)
+        with open("𝚃𝚘𝚡𝚒𝚌_Ki_MkC.txt", "w") as logfile:
+            logfile.write("𝚃𝚘𝚡𝚒𝚌[ Bot Logs ]\n\n" + logs)
 
         end = datetime.now()
         ms = (end-start).seconds
@@ -55,4 +55,4 @@ async def logs(legend):
             await fetch.edit(f"An Exception Occured!\n\n**ERROR:** {str(e)}")
 
     elif legend.sender_id in SUDO_USERS:
-        await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴏᴡɴᴇʀ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
+        await legend.reply("» ꜱᴏʀʀʏ, ᴏɴʟʏ ᴛᴏxɪᴄ ᴄᴀɴ ᴀᴄᴄᴇꜱꜱ ᴛʜɪꜱ ᴄᴏᴍᴍᴀɴᴅ.")
