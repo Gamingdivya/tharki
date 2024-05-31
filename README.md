@@ -1,10 +1,10 @@
-<h1 align="center"><b>[✨🥀] Toxic spam bot ˼ [✨🥀]</b></h1>
+<h1 align="center"><b>[✨🥀] 🇹 𝙾 𝚇 𝙸 𝙲 🇸 𝙿 𝙰 𝙼  🇧 𝙾 𝚃 ˼ [✨🥀]</b></h1>
 
 <h4 align="center"> 𝐀 𝐏𝐎𝐖𝐄𝐑𝐅𝐔𝐋 𝐒𝐏𝐀𝐌𝐁𝐎𝐓𝐒</h4>
 
 [<img src="https://telegra.ph/file/53f2627a17d8fdf27226b.jpg"/>]
 
-> ⭐️ Thanks to everyone for using this op 🥀 Toxic spam bot 🥀. That is the greatest pleasure we have !
+> ⭐️ Thanks to everyone for using this op 🥀 🇹 𝙾 𝚇 𝙸 𝙲 🇸 𝙿 𝙰 𝙼  🇧 𝙾 𝚃 🥀. That is the greatest pleasure we have !
 
 
 # ᴅᴇᴘʟᴏʏᴍᴇɴᴛ
