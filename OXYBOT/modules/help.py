@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"Rɪᴛᴇsʜ 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋˼ 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹@llll_SHADOW_OP_X_D_llll ˼🫧**"
+HELP_STRING = f"🇹 𝙾 𝚇 𝙸 𝙲 🇸 𝙿 𝙰 𝙼  🇧 𝙾 𝚃˼ 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹@llll_SHADOW_OP_X_D_llll ˼🫧**"
 
 HELP_BUTTON = [
     [
@@ -136,7 +136,7 @@ raid_msg = f"""
   1) {hl} 𝐂𝐑𝐀𝐈𝐃 < 𝐂𝐎𝐔𝐍𝐓 > < 𝐔𝐒𝐄𝐑𝐍𝐀𝐌𝐄 >
   2) {hl} 𝐂𝐑𝐀𝐈𝐃 < 𝐂𝐎𝐔𝐍𝐓 > <𝐑𝐄𝐏𝐋𝐘 𝐓𝐎 𝐀 𝐔𝐒𝐄𝐑 >
 
-**© ˹@I_RITESH_I˼**💘
+**© ˹@llll_SHADOW_OP_X_D_llll˼**💘
 """
 
 spam_msg = f"""
@@ -153,7 +153,7 @@ spam_msg = f"""
   1) {hl}𝐇𝐀𝐍𝐆 < 𝐂𝐎𝐔𝐍𝐓𝐄𝐑 >
 
 
-** © ˹@I_RITESH_I˼**
+** © ˹@llll_SHADOW_OP_X_D_llll˼**
 """                     
            
            
