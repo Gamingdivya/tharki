@@ -22,7 +22,7 @@ def load_plugins(plugin_name):
     load.logger = logging.getLogger(plugin_name)
     spec.loader.exec_module(load)
     sys.modules["OXYBOT.modules." + plugin_name] = load
-    print("Ritesh 𝗛𝗔𝗦 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗗 " + plugin_name)
+    print("Toxic 𝗛𝗔𝗦 𝗜𝗠𝗣𝗢𝗥𝗧𝗘𝗗 " + plugin_name)
 
 
 files = glob.glob("OXYBOT/modules/*.py")
@@ -32,7 +32,7 @@ for name in files:
         plugin_name = patt.stem
         load_plugins(plugin_name.replace(".py", ""))
 
-print("\Ritesh Bot Deployed Successfully!")
+print("\Toxic Bot Deployed Successfully!")
 
 
 async def main():
