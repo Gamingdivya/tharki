@@ -3,7 +3,7 @@ from telethon import events, Button
 from config import X1, X2, X3, X4, X5, X6, X7, X8, X9, X10, SUDO_USERS, CMD_HNDLR as hl
 
 
-HELP_STRING = f"Rɪᴛᴇsʜ 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋˼ 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹@I_RITESH_I ˼🫧**"
+HELP_STRING = f"Rɪᴛᴇsʜ 𝕏 𝕊ℙ𝔸𝕄𝔹𝕆𝕋˼ 𝙃𝙚𝙡𝙥 𝙈𝙚𝙣𝙪 ★\n\n» **𝐂𝐋𝐈𝐂𝐊 𝐎𝐍 𝐁𝐔𝐓𝐓𝐎𝐍 𝐅𝐎𝐑 𝐇𝐄𝐋𝐏**\n» **𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥: ˹@llll_SHADOW_OP_X_D_llll ˼🫧**"
 
 HELP_BUTTON = [
     [
@@ -14,11 +14,11 @@ HELP_BUTTON = [
       Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
     ],
     [
-      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/I_RITESH_I")
+      Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/llll_SHADOW_OP_X_D_llll")
      
     ],
   [   
-      Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="yash")
+      Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="tharki")
       
   ]
 ]
@@ -38,7 +38,7 @@ async def help(event):
     if event.sender_id in SUDO_USERS:
         try:
           await event.client.send_file(event.chat_id,
-              "https://telegra.ph/file/fd3ad786a249ff2bf3889.jpg",
+              "https://telegra.ph/file/53f2627a17d8fdf27226b.jpg",
               caption=HELP_STRING,
               buttons=HELP_BUTTON
               )
@@ -67,7 +67,7 @@ extra_msg = f"""
 💖 𝗔𝗯𝘂𝘀𝗲𝗦𝗽𝗮𝗺: **🌺ᴏɴᴇ ᴡᴏʀᴅ ʙɪɢ ɢᴀᴀʟɪ sᴘᴀᴍ🌺**
   1) {hl}𝚊𝚋𝚞𝚜𝚎 <𝚌𝚘𝚞𝚗𝚝> <𝚞𝚜𝚎𝚛𝚗𝚊𝚖𝚎>
   
-**© ˹ @I_RITESH_I˼**
+**© ˹ @llll_SHADOW_OP_X_D_llll˼**
 """
 
 
@@ -105,7 +105,7 @@ yash_msg = f"""
 
 
 
-**© ˹@I_RITESH_I˼**💘
+**© ˹@llll_SHADOW_OP_X_D_llll˼**💘
 """
 
                  
@@ -175,19 +175,19 @@ async def helpback(event):
               [
                 Button.inline("★𝗦𝗣𝗔𝗠★", data="spam"),
                 Button.inline("★𝗥𝗔𝗜𝗗★", data="raid"),
-                Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="yash")
+                Button.inline("★𝗡𝗘𝗪 𝗖𝗢𝗠𝗠𝗔𝗡𝗗★", data="tharki")
               ],
               [
                 Button.inline("★𝗖𝗢𝗠𝗠𝗔𝗡𝗗𝗦★", data="extra")
               ],
               [
-                Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/I_RITESH_I")
+                Button.url("★𝗗𝗘𝗩𝗘𝗟𝗢𝗣𝗘𝗥★", "https://t.me/llll_SHADOW_OP_X_D_llll")
            
               ]
             ]
           )
     else:
-        await event.answer("Developer - @I_RITESH_I★" , cache_time=0, alert=True)
+        await event.answer("Developer - @llll_SHADOW_OP_X_D_llll★" , cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"spam"))
@@ -206,7 +206,7 @@ async def help_spam(event):
               buttons=[[Button.inline("< Back", data="help_back"),],],
               ) 
     else:
-        await event.answer("Developer - @I_RITESH_I★", cache_time=0, alert=True)
+        await event.answer("Developer - @llll_SHADOW_OP_X_D_llll★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"raid"))
@@ -225,7 +225,7 @@ async def help_raid(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
           )
     else:
-        await event.answer("Developer - @I_RITESH_I★", cache_time=0, alert=True)
+        await event.answer("Developer - @llll_SHADOW_OP_X_D_llll★", cache_time=0, alert=True)
 
 
 @X1.on(events.CallbackQuery(pattern=r"extra"))
@@ -244,7 +244,7 @@ async def help_extra(event):
             buttons=[[Button.inline("< Back", data="help_back"),],],
             )
     else:
-        await event.answer("Developer - @I_RITESH_I★", cache_time=0, alert=True)
+        await event.answer("Developer - @llll_SHADOW_OP_X_D_llll★", cache_time=0, alert=True)
         
 
 @X1.on(events.CallbackQuery(pattern=r"yash"))
@@ -263,4 +263,4 @@ async def help_yash(event):
              buttons=[[Button.inline("< Back", data="help_back"),],],
              )
      else:
-         await event.answer("Developer - @I_RITESH_I★", cache_time=0, alert=True)
+         await event.answer("Developer - @llll_SHADOW_OP_X_D_llll★", cache_time=0, alert=True)
